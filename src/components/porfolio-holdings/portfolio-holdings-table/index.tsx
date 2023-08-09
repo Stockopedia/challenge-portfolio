@@ -25,8 +25,8 @@ export function PortfolioHoldingsTable(props: PortfolioHoldingsTableProps) {
           </tr>
         </thead>
         <tbody>
-          { props.holdings.map(holding => (
-            <tr>
+          { props.holdings.map((holding, i) => (
+            <tr key={i}>
               <td className={`${styles.portfolioHoldingsTable__tableLeftCell} ${styles.portfolioHoldingsTable__tableNameCell}`}>{holding.name}</td>
               <td className={styles.portfolioHoldingsTable__tableLeftCell}>{holding.sector.name}</td>
               <td className={styles.portfolioHoldingsTable__tableRightCell}>{sharesFormatter.format(holding.shares)}</td>
