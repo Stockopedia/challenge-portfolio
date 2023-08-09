@@ -1,0 +1,31 @@
+.portfolio-header {
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  padding: 24px;
+
+  &__title {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  &__valuation {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+
+    &-label {
+      font-weight: 400;
+    }
+  
+    &-text {
+      font-weight: 700;
+    }
+  }
+
+}

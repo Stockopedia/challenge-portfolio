@@ -1,0 +1,27 @@
+.sectors {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  &__label {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  &__pill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px 12px;
+  }
+
+  &__pill {
+    padding: 7px 16px;
+    border-radius: 100px;
+    background: #D8DEEB;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    font-weight: 400;
+  }
+}

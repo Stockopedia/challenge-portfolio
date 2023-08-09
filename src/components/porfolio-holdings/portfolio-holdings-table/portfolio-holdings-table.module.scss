@@ -1,0 +1,39 @@
+.portfolio-holdings-table {
+  padding: 0 24px;
+  overflow: scroll;
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    min-width: 768px;
+  
+
+    thead tr {
+      border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+    }
+
+    thead th {
+      padding: 24px 0;
+      font-weight: 700;
+    }
+
+    tbody td {
+      font-weight: 400;
+      padding: 12px 0;
+    }
+
+    &-name-cell {
+      flex: 1;
+    }
+
+    &-left-cell {
+      text-align: left;
+    }
+
+    &-right-cell {
+      text-align: right;
+    }
+  }
+}
